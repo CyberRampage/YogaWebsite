@@ -1,0 +1,65 @@
+/* Basis-Stile für die gesamte Seite */
+body {
+    font-family: Arial, sans-serif; /* Schriftart für die gesamte Seite */
+    line-height: 1.6; /* Zeilenhöhe für bessere Lesbarkeit */
+    margin: 0;
+    padding: 0;
+    background-image: url(media/ButtonsBackground.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+/*  background: linear-gradient(135deg, #d4af37, #a0d6a2); /* Gold-Grün-Gradient-Hintergrund */
+    background-attachment: fixed; /* Hintergrund bleibt beim Scrollen fixiert */
+}
+
+/* Stile für den Container der Haupt-Buttons */
+.mainButtons {
+    padding: 20px;
+    text-align: center;
+/*  background-image: url('media/ButtonsBackground.jpg'); /* Hintergrundbild für den Button-Bereich */
+    background-size: cover; /* Deckt den gesamten Container ab */
+    background-position: center; /* Zentriert das Hintergrundbild */
+    background-repeat: no-repeat; /* Verhindert wiederholtes Hintergrundbild */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Etwas stärkerer Schatten für besseren Kontrast */
+    margin: 20px auto; /* Abstand oben und unten, zentriert */
+    max-width: 600px; /* Maximalbreite für den Button-Bereich */
+    border-radius: 10px; /* Abgerundete Ecken für den Button-Bereich */
+}
+
+/* Stile für die Buttons */
+.button {
+    display: inline-block; /* Zeigt die Buttons nebeneinander an */
+    margin: 10px; /* Abstand zwischen den Buttons */
+    padding: 10px 20px; /* Innenabstand der Buttons */
+    font-size: 16px; /* Schriftgröße der Buttons */
+    color: #fff; /* Textfarbe */
+    background: rgba(0, 0, 0, 0.5); /* Halbtransparenter Hintergrund für besseren Kontrast */
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+    border-radius: 5px; /* Runde Ecken für die Buttons */
+    transition: 0.3s, transform 0.3s; /* Sanfter Übergang der Hintergrundfarbe und Skalierung beim Hover */
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0.7); /* Etwas dunklerer Hintergrund beim Hover für besseren Kontrast */
+    transform: scale(1.05); /* Leichte Vergrößerung beim Hover */
+}
+
+/* Stile für das Logo-Div */
+.blocktext {
+    text-align: center;
+    padding: 20px;
+    background-size: cover; /* Deckt den gesamten Container ab */
+    background-position: center; /* Zentriert das Hintergrundbild */
+    background-repeat: no-repeat; /* Verhindert wiederholtes Hintergrundbild */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Etwas stärkerer Schatten für besseren Kontrast */
+    margin: 0 auto;
+    max-width: 800px; /* Maximalbreite für den Logo-Bereich */
+    border-radius: 10px; /* Abgerundete Ecken für den Logo-Bereich */
+}
+
+/* Stile für das Bild im Logo-Bereich */
+.blocktext img {
+    max-width: 100%; /* Bildgröße passt sich der Breite des Con */
+}
+
